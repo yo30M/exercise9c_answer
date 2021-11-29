@@ -12,3 +12,9 @@
     password: "testuser#{n+1}",
   )
 end 
+
+Group.create(
+  name: "Test Group",
+  introduction: "Test Event Body",
+  owner_id: 1
+)
